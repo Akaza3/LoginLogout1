@@ -1,11 +1,11 @@
-const mongoose = require('mognoose');
+const mongoose = require('mongoose');
 
 const userSchema = mongoose.Schema( {
   name : {
     type: String,
     maxlength: 50
   },
-  emial: {
+  email: {
     type: String,
     trim: true,
     unique: 1
